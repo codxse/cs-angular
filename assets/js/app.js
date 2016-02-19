@@ -10,6 +10,8 @@
     var gem = {
         name: 'Deodorant',
         price: 2.95,
-        description: 'A deodorant is a substance applied to the body to prevent body odor caused by the bacterial breakdown of perspiration in armpits, feet, and other areas of the body. A subgroup of deodorants, antiperspirants, affect odor as well as prevent sweating by affecting sweat glands.'
+        description: 'A deodorant is a substance applied to the body to prevent body odor caused by the bacterial breakdown of perspiration in armpits, feet, and other areas of the body. A subgroup of deodorants, antiperspirants, affect odor as well as prevent sweating by affecting sweat glands.',
+        canPurchase: true,
+        soldOut: false
     }
 }());
