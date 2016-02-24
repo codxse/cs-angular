@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="store">
+<html lang="en" ng-app="storeGem">
 <head>
     <meta charset="UTF-8">
     <title>CodeSchool AngularJS</title>
@@ -9,7 +9,8 @@
  <div ng-repeat="product in store.products">
     <div class="product" ng-hide="product.soldOut">
         <h1> {{product.name}} </h1>
-        <h2> ${{product.price}} </h2>
+        <h2> {{product.price | currency}} </h2>
+        <img ng-src="{{ product.images[0] }}" />
         <p> {{product.description}} </p>
         <button ng-show="product.canPurchase">Add to Cart</button>
     </div>
