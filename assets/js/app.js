@@ -15,7 +15,9 @@
             canPurchase: true,
             soldOut: false,
             images: [
-                "assets/images/deodorant.jpg"
+                "assets/images/deodorant.jpg",
+                "assets/images/deodorant2.jpg",
+                "assets/images/deodorant3.jpeg"
             ]
         },
         {
@@ -25,7 +27,9 @@
             canPurchase: true,
             soldOut: false,
             images: [
-                "assets/images/shampo.jpeg"
+                "assets/images/shampo.jpeg",
+                "assets/images/shampo2.jpg",
+                "assets/images/shampo3.jpg"
             ]
         },
         {
@@ -35,7 +39,9 @@
             canPurchase: true,
             soldOut: false,
             images: [
-                "assets/images/toothbrush.jpeg"
+                "assets/images/toothbrush.jpeg",
+                "assets/images/toothbrush2.jpg",
+                "assets/images/toothbrush3.JPG"
             ]
         }
     ]
